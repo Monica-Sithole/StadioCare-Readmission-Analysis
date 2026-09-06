@@ -1,0 +1,1 @@
+This folder contains model evaluation, comparison, and experimental results for the 30-day readmission prediction project.
