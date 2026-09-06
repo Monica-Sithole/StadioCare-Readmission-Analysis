@@ -8,11 +8,11 @@ STADIOcare Group needs a reliable way to identify patients who are at increased 
 The problem this project will address is whether patient and hospital encounter characteristics can be used to predict the likelihood of a 30-day readmission. A data science model could help STADIOcare identify higher risk patients earlier, allowing healthcare teams to prioritise appropriate follow-up and support. This could contribute to better patient outcomes while supporting the organisation’s goal of reducing unnecessary hospital use and making more effective use of its healthcare resources.
 ## Project Structure
 The repository is organised according to the main stages of the data science project.
-data – contains raw and processed datasets.
-Preprocessing – contains data quality checks and preprocessing activities.
-feature-extraction – contains the creation and preparation of features for modelling.
-Modelling – contains the development of models for predicting 30-day readmission risk.
-evaluation – contains model evaluation and comparison results.
-visualisation – contains scripts and notebooks used to create project visualisations.
-utils – contains statistical helper functions and reusable supporting scripts.
-Experiments – contains information about experimental setup and experimental results.
+data:contains raw and processed datasets.
+Preprocessing:contains data quality checks and preprocessing activities.
+feature-extraction: contains the creation and preparation of features for modelling.
+Modelling:contains the development of models for predicting 30-day readmission risk.
+evaluation: contains model evaluation and comparison results.
+visualisation:contains scripts and notebooks used to create project visualisations.
+utils:contains statistical helper functions and reusable supporting scripts.
+Experiments:contains information about experimental setup and experimental results.
