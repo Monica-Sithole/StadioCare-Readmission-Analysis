@@ -1,0 +1,1 @@
+This folder contains the data requirement and datasets used in the 30-day hospital readmission prediction project.
