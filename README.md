@@ -25,7 +25,7 @@ Experiments:contains information about experimental setup and experimental resul
 | **Action** | Compare different classification models and evaluation metrics to determine which approach is most appropriate for identifying patients at increased risk of 30-day readmission. |
 | **Assumption** | Patient and hospital encounter characteristics available in the dataset are sufficiently related to the likelihood of a 30-day readmission to support predictive modelling. |
 | **Assumption** | A patient who is recorded as being readmitted within 30 days represents a meaningful outcome for evaluating the proposed prediction approach. |
-| **Issue** | The available public dataset is a proxy for STADIOcare's actual patient data, meaning that the findings may not fully represent STADIOcare's patient population or operating environment. |
+| **Issue** | 1.The available public dataset is a proxy for STADIOcare's actual patient data, meaning that the findings may not fully represent STADIOcare's patient population or operating environment. 2.The data might not correctly present the stadioCare |
 | **Decision** | The project will focus on predicting 30-day readmission risk rather than general hospital performance or other opportunities identified from the STADIOcare briefing pack. |
 | **Dependency** | Data quality assessment must be completed before preprocessing and feature engineering can be finalised. |
 | **Dependency** | Preprocessing and feature engineering must be completed before the readmission prediction models can be trained and evaluated. |
