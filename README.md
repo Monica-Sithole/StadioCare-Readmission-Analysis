@@ -17,7 +17,8 @@ visualisation:contains scripts and notebooks used to create project visualisatio
 utils:contains statistical helper functions and reusable supporting scripts.
 Experiments:contains information about experimental setup and experimental results.
 ## RAAIDD Log
----|---|
+| Type | RAAIDD Entry |
+|---|---|
 | **Risk** | The public dataset may not contain all the patient and hospital information required to accurately represent STADIOcare's readmission problem. |
 | **Risk** | Missing values, inconsistent coding, or repeated patient encounters may affect the quality and reliability of the prediction model. |
 | **Action** | Inspect and document the quality, completeness, and structure of the dataset before beginning model development. |
