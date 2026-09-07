@@ -16,3 +16,15 @@ evaluation: contains model evaluation and comparison results.
 visualisation:contains scripts and notebooks used to create project visualisations.
 utils:contains statistical helper functions and reusable supporting scripts.
 Experiments:contains information about experimental setup and experimental results.
+## RAAIDD Log
+---|---|
+| **Risk** | The public dataset may not contain all the patient and hospital information required to accurately represent STADIOcare's readmission problem. |
+| **Risk** | Missing values, inconsistent coding, or repeated patient encounters may affect the quality and reliability of the prediction model. |
+| **Action** | Inspect and document the quality, completeness, and structure of the dataset before beginning model development. |
+| **Action** | Compare different classification models and evaluation metrics to determine which approach is most appropriate for identifying patients at increased risk of 30-day readmission. |
+| **Assumption** | Patient and hospital encounter characteristics available in the dataset are sufficiently related to the likelihood of a 30-day readmission to support predictive modelling. |
+| **Assumption** | A patient who is recorded as being readmitted within 30 days represents a meaningful outcome for evaluating the proposed prediction approach. |
+| **Issue** | The available public dataset is a proxy for STADIOcare's actual patient data, meaning that the findings may not fully represent STADIOcare's patient population or operating environment. |
+| **Decision** | The project will focus on predicting 30-day readmission risk rather than general hospital performance or other opportunities identified from the STADIOcare briefing pack. |
+| **Dependency** | Data quality assessment must be completed before preprocessing and feature engineering can be finalised. |
+| **Dependency** | Preprocessing and feature engineering must be completed before the readmission prediction models can be trained and evaluated. |
